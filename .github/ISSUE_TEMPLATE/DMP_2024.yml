@@ -1,6 +1,7 @@
 name: DMP 2024 Project Template
 description: List a new project for Dedicated Mentoring Program (DMP) 2024 
-title: "[DMP 2024]: "
+title: "[DMP 2024]: "AI-based Indian language corpus translation tool for BelonggAI - a platform for
+intersectional inclusion in development programs"
 labels: ["DMP 2024"]
 body:
   - type: textarea
@@ -10,7 +11,21 @@ body:
     attributes:
       label: Ticket Contents
       value: |
-        ## Description
+        ## Description Belongg is developing BelonggAI, a tool that will help development practitioners, researchers, funders,
+etc analyze their proposals, program documents, policy documents, etc to discover intersectional
+perspectives (gender, disability, sexual orientation, caste, religion, etc) that could get added to
+make the program more inclusive. The tool is based on a RAG architecture, with customized prompts,
+and a corpus running into thousands of research papers, media articles, grey literature. This is constantly
+growing as we expand our focus areas. However, all of this is still in English.
+To avoid omitting the knowledge produced by and on marginalized and underserved communities, we
+are committed to building on the tool’s capability to process knowledge produced in languages other
+than English. To this end, Belongg would like to undertake a project that will entail developing a tool to
+translate text documents, audio, and videos in Indian languages to PDFs with English text. The
+developed tool will be embedded in our existing LLM model that can only process English text. While
+working on this project, the intern selected as part of DMP will receive guidance from a Belongg mentor
+to coordinate with our technology team (which includes an LLM engineer and colleagues from ARTPark)
+and receive mentorship from a separate mentor assigned by Samagra to provide technical assistance to
+the intern.
         [Provide a brief description of the feature, including why it is needed and what it will accomplish.]
 
   - type: textarea
@@ -22,10 +37,39 @@ body:
       description: List the goals of the feature. Please add the goals that must be achieved by Mid-point check-in i.e 1.5 months into the coding period.
       value: |
         ## Goals
-        - [ ] [Goal 1]
-        - [ ] [Goal 2]
-        - [ ] [Goal 3]
-        - [ ] [Goal 4]
+        - [ ] [1. Development of Multilingual Translation Tool:
+a. Objective: Design and implement a comprehensive tool (likely built using Bhaashini)
+capable of translating text, audio, and video content from multiple Indian languages into
+English text, ensuring seamless integration with the existing LLM framework.
+b. Specifications: The tool should leverage advanced language translation technologies to
+ensure high fidelity and accuracy and should work with a large number of major and
+minor Indian languages (those supported by efforts such as Bhashini).]
+        - [ ] [Quality Assurance and Performance Metrics:
+a. Objective: Establish a process to measure and benchmark translation quality, speed,
+and reliability, ensuring the tool meets the specific needs of BelonggAI’s knowledge
+repository.
+
+b. Specifications: Implement a testing framework to evaluate the translation accuracy, the
+integrity of metadata, and the processing speed. Define clear performance metrics,
+such as a specific accuracy rate in translations and a maximum processing time of time
+for different types of content. We will be able to provide fees to cover license fees to
+cover any additional SaaS tools or LLM performance measurement tools for this (such
+as Uptrain)]
+        - [ ] [3. Integration and Usability:
+a. Objective: Ensure the translation tool is fully compatible and is able to ingest input files
+and deliver the output files using the existing BelonggAI data storage protocols and
+folder structures (Google Drive folders with API access) and streamlines the process of
+updating the knowledge repository for both the technology team and the model itself.
+b. Specifications: The tool must feature a user-friendly interface for manual operations
+and support automated batch processing for large datasets. It should automatically tag
+and store translated documents with relevant metadata in a designated Google Drive,
+adhering to predefined organizational standards.]
+        - [ ] [Documentation and Training Materials:
+a. Objective: Provide comprehensive documentation and training resources to ensure
+sustainable use and maintenance of the translation tool by Belongg’s team.
+b. Specifications: Develop detailed user manuals, technical documentation, and video
+tutorials covering tool usage, troubleshooting, and best practices for content
+translation and management.]
         - [ ] [Goals Achieved By Mid-point Milestone]
 
   - type: textarea
